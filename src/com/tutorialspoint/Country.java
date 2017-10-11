@@ -6,6 +6,7 @@ public class Country {
  
  public String getName() {
      System.out.println("country name : " + name);
+	 
 
 	return name;
 }
@@ -19,6 +20,8 @@ public Country() {
  }
 
 public String getCapital() {
+     System.out.println("country name : " + capital);
+	
 	return capital;
 }
 
